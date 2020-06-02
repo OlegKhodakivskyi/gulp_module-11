@@ -1,15 +1,20 @@
-
 .footer { 
     padding-bottom: 12px;
-}
 
-.copyright::before {
-    display: block;
-    content: "";
-    height: 1px;
-    width: 100%;
-    background-color: $third-background-color;
-    margin-bottom: 10px;
+    &__designer-page {
+        color: $background-color;
+    }
+
+    &__btn-subscribe {
+        font-family: $font-monts;
+        font-weight: $bold;
+        border: none;
+        padding: 12px 44px;
+        background-color: $btn-color;
+        color: $second-color;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
 }
 
 .copyright {
@@ -20,39 +25,33 @@
     font-family: $font-monts;
     font-size: 14px;
     font-weight: $regular;
-}
 
-.footer__designer-page {
-    color: $background-color;
+    &::before {
+        display: block;
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: $third-background-color;
+        margin-bottom: 10px;
+    }
 }
 
 .form {
     display: flex;
-}
 
-.input__form {
-    font-size: 15px;
-    font-family: $font-roboto;
-    line-height: 24px;
-    text-align: left;     
-    padding: 0 12px;
-    border: none;
-    border: 1px solid $border-color;
-    font-weight: $light;
-    font-style: italic;
+    &__input {
+        font-size: 15px;
+        font-family: $font-roboto;
+        line-height: 24px;
+        text-align: left;     
+        padding: 0 12px;
+        border: none;
+        border: 1px solid $border-color;
+        font-weight: $light;
+        font-style: italic;
+    }
 }
 
 ::placeholder {
     color: #cccccc;
-}
-
-.footer__btn-subscribe {
-    font-family: $font-monts;
-    font-weight: $bold;
-    border: none;
-    padding: 12px 44px;
-    background-color: $btn-color;
-    color: $second-color;
-    text-transform: uppercase;
-    cursor: pointer;
 }
