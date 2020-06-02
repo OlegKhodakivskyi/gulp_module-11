@@ -9,7 +9,7 @@
     font-family: $font-monts;
     font-size: 30px;
     font-weight: $bold;
-    color: #333333;
+    color: $main-color;
     margin-bottom: 107px;
 }
 
@@ -20,7 +20,7 @@
     font-weight: $regular;
     font-size: 24px;
     line-height: 1.2;
-    color: #333333;
+    color: $main-color;
     margin-bottom: 20px;
     text-transform: none;
 }
@@ -30,7 +30,7 @@
     content: "";
     width: 60px;
     height: 3px;
-    background-color: #f38181;
+    background-color: $background-color;
     margin: 12px auto 0;
 }
 
@@ -69,7 +69,7 @@
     font-weight: $regular;
     font-size: 15px;
     line-height: 24px;
-    color: #999999;
+    color: $description-color;
 }
 
 .service__item-icon--clock {
@@ -93,5 +93,5 @@
 }
 
 .service__item-icon--digital {
-    background-image: url('../image/background-icons/icon-digital.png');
+    background-image: url('../images/icons/icon-digital.png');
 }

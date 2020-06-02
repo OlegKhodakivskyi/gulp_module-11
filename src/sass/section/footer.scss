@@ -8,7 +8,7 @@
     content: "";
     height: 1px;
     width: 100%;
-    background-color: #e5e5e5;
+    background-color: $third-background-color;
     margin-bottom: 10px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .footer__designer-page {
-    color: #f38181;
+    color: $background-color;
 }
 
 .form {
@@ -37,7 +37,7 @@
     text-align: left;     
     padding: 0 12px;
     border: none;
-    border: 1px solid #e7e7e7;
+    border: 1px solid $border-color;
     font-weight: $light;
     font-style: italic;
 }
@@ -51,8 +51,8 @@
     font-weight: $bold;
     border: none;
     padding: 12px 44px;
-    background-color: #95e1d3;
-    color: #fff;
+    background-color: $btn-color;
+    color: $second-color;
     text-transform: uppercase;
     cursor: pointer;
 }

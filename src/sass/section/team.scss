@@ -11,7 +11,7 @@
     font-weight: $regular;
     font-size: 15px;
     line-height: 24px;
-    color: #999999;
+    color: $description-color;
     padding: 0 110px;
     margin-bottom: 94px;
 }
@@ -59,7 +59,7 @@
 .team__item:hover .team__image-wrapper,
 .team__item:focus .team__image-wrapper {
     transform: translate(-10px, -10px);
-    box-shadow: 10px 10px #95e1d3;
+    box-shadow: 10px 10px $btn-color;
 }
 
 .social-list {
@@ -72,14 +72,14 @@
     align-items: center;
     width: 56px;
     height: 56px;
-    background-color: #fce38a;
+    background-color: $hover-color;
     transition: all 300ms ease;
 }
 
 .social-list__icon {
     width: 26px;
     height: 26px;
-    fill: #f38181;
+    fill: $background-color;
 }
 
 .social-list__item:hover .social-list__icon,
@@ -94,7 +94,7 @@
 
 .social-list__link:hover,
 .social-list__link:focus {
-    background-color: #f38181;
+    background-color: $background-color;
 }
 
 .team__member--name {
@@ -105,9 +105,10 @@
 }
 
 .team__member---position {
+    font-family: $font-roboto;
     font-size: 15px;
     line-height: 24px;
     font-weight: $light;
-    color: #999999;
+    color: $description-color;
     font-style: italic;
 }
